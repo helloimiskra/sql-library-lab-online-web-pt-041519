@@ -25,3 +25,5 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
 (4, "Bella", "I'm going to be 19 forever.", "Human", 2, 2),
 (5, "Edward", "I watched you while you were sleeping.", "Vampire", 2, 2),
 (6, "Jacob", "Sorry I cannot be the right monster for you.", "Werewolf", 2, 2);
+
+
