@@ -27,3 +27,21 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
 (6, "Edward", "I watched you while you were sleeping.", "Vampire", 2, 2),
 (7, "Victoria", "I'm the one with the wicked curve ball.", "Vampire", 2, 2),
 (8, "Jacob", "Sorry I cannot be the right monster for you.", "Werewolf", 2, 2);
+
+INSERT INTO character_books (id, book_id, character_id) VALUES
+(1, 1, 1),
+(2, 1, 4),
+(3, 2, 1),
+(4, 2, 4),
+(5, 3, 1),
+(6, 3, 4),
+(7, 1, 3),
+(8, 2, 2),
+(9, 4, 5),
+(10, 4, 6),
+(11, 5, 5),
+(12, 5, 6),
+(13, 6, 5),
+(14, 6, 6),
+(15, 5, 8),
+(16, 5, 7);
