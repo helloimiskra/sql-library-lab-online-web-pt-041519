@@ -9,3 +9,19 @@ INSERT INTO books (id, title, year, series_id) VALUES
 (4, "Twilight", 2005, 2),
 (5, "New Mood", 2006, 2),
 (6, "Eclipse", 2007, 2);
+
+INSERT INTO subgenres (id, name) VALUES
+(1, "Bildungsroman"),
+(2, "Fantasy");
+
+INSERT INTO authors (id, name) VALUES
+(1, "J.K. Rowling"),
+(2, "Stephenie Meyer");
+
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
+(1, "Harry Potter", "The Boy Who Lived", "Wizard", 1, 1),
+(2, "Dobby", "Dobby is a free elf.", "Elf", 1, 1),
+(3, "Petunia Dursley", "I was the only one who saw her for what she was... a freak!", "Muggle", 1, 1),
+(4, "Bella", "I'm going to be 19 forever.", "Human", 2, 2),
+(5, "Edward", "I watched you while you were sleeping.", "Vampire", 2, 2),
+(6, "Jacob", "Sorry I cannot be the right monster for you.", "Werewolf", 2, 2);
