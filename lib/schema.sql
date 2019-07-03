@@ -15,4 +15,4 @@ CREATE TABLE authors (
   name TEXT
 );
 
-CREATE TABLE books
+-- CREATE TABLE books
